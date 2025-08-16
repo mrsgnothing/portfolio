@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Swastik Gyawali — Portfolio</title>
+  <meta name="description" content="Portfolio of Swastik Gyawali — Grade 12 CS (PCM), aspiring developer from Nepal." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <!-- Header / Nav -->
+  <header class="site-header">
+    <div class="container nav">
+      <!-- Logo -->
+      <div class="logo">SG</div>
+
+      <!-- Hamburger (mobile) -->
+      <button class="hamburger" aria-label="Toggle Menu">&#9776;</button>
+
+      <!-- Navigation Menu -->
+      <nav class="menu">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#education">Education</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <main id="home" class="hero container">
+    <div class="hero-text">
+      <span class="chip">Computer Science • PCM</span>
+      <h1 class="reveal">Hi, I'm <span class="accent">Swastik Gyawali</span></h1>
+      <p class="lede reveal">Grade 12 student at New Horizon College. I build clean, minimal websites and I'm constantly learning new things.</p>
+      <div class="hero-actions reveal">
+        <a href="#projects" class="btn primary">See Projects</a>
+        <a href="#contact" class="btn">Hire / Contact</a>
+      </div>
+      <ul class="quick-meta reveal">
+        <li><strong>Age:</strong> <span id="age">--</span></li>
+        <li><strong>Location:</strong> Tilottama-2, Rupandehi, Nepal</li>
+        <li><strong>Email:</strong> <a href="mailto:reachswastikgyawali@gmail.com">reachswastikgyawali@gmail.com</a></li>
+      </ul>
+    </div>
+
+    <div class="hero-photo reveal">
+      <div class="photo-frame">
+        <img src="profile.jpg" alt="Portrait of Swastik Gyawali" />
+      </div>
+    </div>
+  </main>
+
+  <!-- About -->
+  <section id="about" class="section">
+    <div class="container">
+      <h2 class="section-title reveal">About</h2>
+      <p class="reveal">I'm a curious learner with basic coding knowledge, leveling up every day. I enjoy building smooth, professional interfaces with subtle animations and solid structure. My focus is clarity, performance, and clean code.</p>
+    </div>
+  </section>
+
+  <!-- Education -->
+  <section id="education" class="section alt">
+    <div class="container">
+      <h2 class="section-title reveal">Education</h2>
+      <div class="timeline">
+        <article class="card reveal">
+          <h3>New Horizon College — Grade 12</h3>
+          <p class="muted">Computer Science with PCM</p>
+          <p>Deepening my CS foundation while balancing Physics, Chemistry, and Math.</p>
+        </article>
+        <article class="card reveal">
+          <h3>Apex School — Up to Grade 10</h3>
+          <p class="muted">Tilottama-2, Shankarnagar</p>
+          <p>Built the academic base and curiosity that drives my current learning.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills -->
+  <section id="skills" class="section">
+    <div class="container">
+      <h2 class="section-title reveal">Skills</h2>
+      <div class="chips reveal">
+        <span class="chip">HTML5</span>
+        <span class="chip">CSS3</span>
+        <span class="chip">JavaScript (Basics)</span>
+        <span class="chip">Responsive Design</span>
+        <span class="chip">Git/GitHub</span>
+        <span class="chip">Learning Mindset</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects -->
+  <section id="projects" class="section alt">
+    <div class="container">
+      <h2 class="section-title reveal">Projects</h2>
+      <div class="grid reveal">
+        <article class="card project">
+          <h3>Landing Page</h3>
+          <p class="muted">Clean, fast, and mobile-first landing page with smooth scroll and reveal animations.</p>
+          <a class="btn small" href="#" aria-disabled="true">Preview</a>
+        </article>
+        <article class="card project">
+          <h3>Portfolio Template</h3>
+          <p class="muted">Starter template with modular CSS variables and accessible components.</p>
+          <a class="btn small" href="#" aria-disabled="true">Preview</a>
+        </article>
+        <article class="card project">
+          <h3>Utility Scripts</h3>
+          <p class="muted">Tiny JS utilities for age calculation, active menu, and scroll observers.</p>
+          <a class="btn small" href="#" aria-disabled="true">Preview</a>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" class="section">
+    <div class="container">
+      <h2 class="section-title reveal">Contact</h2>
+      <div class="contact-grid reveal">
+        <div>
+          <p>Want to collaborate or just say hi? Reach me at:</p>
+          <p><a class="btn primary" href="mailto:reachswastikgyawali@gmail.com">reachswastikgyawali@gmail.com</a></p>
+          <div class="socials">
+            <a href="https://www.facebook.com/imswastikgyawali" target="_blank" rel="noopener">Facebook</a>
+            <a href="https://www.instagram.com/swastikgyawali_/" target="_blank" rel="noopener">Instagram</a>
+            <a href="https://www.linkedin.com/in/swastik-gyawali-85664b33a/" target="_blank" rel="noopener">LinkedIn</a>
+          </div>
+        </div>
+        <div class="card note">
+          <p class="muted small">Coming Soon!</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="container">
+      <p>© <span id="year"></span> Swastik Gyawali • Built with clean HTML, CSS & JS</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
